@@ -86,7 +86,7 @@ const HomeScreen = () => {
     </View>
 
 
-    <View style = {{height: '5%', flexGrow: 1}}>
+    <View style = {{height: '4%', flexGrow: 1}}>
     <TabBar/>
     </View>
     
