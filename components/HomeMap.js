@@ -70,9 +70,14 @@ const Map = () => {
     
     <View style={styles.buttonContainer}>
   <TouchableOpacity onPress={() => setCollapsed(!collapsed)} style={styles.button}>
-    <View>
-      <Text>Toggle FlatList</Text>
-    </View>
+    
+      <View style = {{marginLeft: 10, backgroundColor: "#C0C0C0", borderRadius: 20, padding: 14}}>
+        
+        <Image className = "h-7 w-7 align-middle center"
+      source = {{uri: 'https://i.postimg.cc/dtCHxnh8/menu.png'}}
+      />
+      </View>
+    
   </TouchableOpacity>
     <FlatList
     style = {{height: collapsed ? 0 : 'auto'}}
@@ -82,7 +87,7 @@ const Map = () => {
     vertical
     renderItem = {({item}) => (
     <TouchableOpacity style= {styles.item}>
-      <View className = "ml-2 h-20 w-20 justify-center">
+      <View className = "h-20 w-20 justify-center">
         <Image
         style = {{width: 30, height: 30, resizeMode: "contain", marginLeft: 20}}
         source = {{uri: item.image}}
@@ -134,7 +139,7 @@ const styles = StyleSheet.create({
   },
   item: {
     backgroundColor: '#C0C0C0',
-    margin: 10,
+    
     borderRadius: 40,
   },
   itemContainer: {

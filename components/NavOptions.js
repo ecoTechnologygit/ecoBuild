@@ -5,13 +5,13 @@ const data = [
   {
     id: "heart", 
     title: "heartButton",
-    image: "https://i.postimg.cc/qBjjC7XV/heart.png",
+    image: "https://i.postimg.cc/59hYttjB/bell.png",
     screen: "notifictionScreen"
   },
   {
     id: "chat", 
     title: "chatButton",
-    image: "https://i.postimg.cc/Pfw3GPnf/speech-bubble.png",
+    image: "https://i.postimg.cc/NjrdHFxQ/chat-1.png",
     screen: "chatScreen"
   }
 ];

@@ -23,7 +23,7 @@ const data = [
   {
     id: "Chat", 
     title: "ChatButton",
-    image: "https://i.postimg.cc/Pfw3GPnf/speech-bubble.png",
+    image: "https://i.postimg.cc/NjrdHFxQ/chat-1.png",
     screen: "ChatScreen"
   }
   
