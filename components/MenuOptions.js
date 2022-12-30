@@ -30,8 +30,8 @@ const MenuOptions = () => {
     keyExtractor = {(item) => item.id}
     horizontal
     renderItem = {({item}) => (
-    <TouchableOpacity style = {{backgroundColor:10, margin: 10, borderRadius: 20 }}>
-      <View className = "ml-2 h-20 w-20 justify-center">
+    <TouchableOpacity style = {{backgroundColor:50, margin: 10, borderRadius: 10 }}>
+      <View className = "ml-2 h-30 w-30 p-4 ">
         <Image
         style = {{width: 30, height: 30, resizeMode: "contain", marginLeft: 20}}
         source = {{uri: item.image}}

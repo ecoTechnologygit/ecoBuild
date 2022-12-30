@@ -87,7 +87,7 @@ const Map = () => {
     vertical
     renderItem = {({item}) => (
     <TouchableOpacity style= {styles.item}>
-      <View className = "h-20 w-20 justify-center">
+      <View className = "h-20 w-20 align-middle center pt-3 pl-2">
         <Image
         style = {{width: 30, height: 30, resizeMode: "contain", marginLeft: 20}}
         source = {{uri: item.image}}
@@ -140,7 +140,8 @@ const styles = StyleSheet.create({
   item: {
     backgroundColor: '#C0C0C0',
     
-    borderRadius: 40,
+    borderRadius: 30,
+    marginTop: 10
   },
   itemContainer: {
     marginLeft: 20,

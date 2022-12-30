@@ -39,9 +39,9 @@ const TabBar = () => {
     horizontal
     renderItem = {({item}) => (
     <TouchableOpacity >
-      <View className = "ml-12 mr-3">
+      <View className = "ml-12 mr-3 ">
         <Image
-        style = {{width: 30, height: 35, resizeMode: "contain" }}
+        style = {{width: 30, height: 40, resizeMode: "contain" }}
         source = {{uri: item.image}}
         />
       </View>

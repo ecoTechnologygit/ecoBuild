@@ -28,7 +28,7 @@ const NavOptions = () => {
     horizontal
     renderItem = {({item}) => (
     <TouchableOpacity >
-      <View className = "ml-2">
+      <View className = "ml-3.5">
         <Image
         style = {{width: 30, height: 30, resizeMode: "contain" }}
         source = {{uri: item.image}}
